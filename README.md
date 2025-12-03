@@ -1,20 +1,22 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Home Soc - Honeypot</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Built a cloud-based Home Security Operations Center (SOC) lab entirely from scratch using a free Microsoft Azure account and Microsoft Sentinel. Deployed a honeypot in Azure by creating a publicly accessible virtual machine to attract real-world attack traffic. Configured log forwarding to send system events and failed intrusion attempts to a centralized repository integrated with a SIEM. Leveraged the SIEM to run queries and generate a visual attack map, providing clear insight into the geographic origins of incoming threats.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>KQL</b> 
+- <b>Azure VMs</b>
+- <b>SIEM (Microsoft Sentinel)</b>
+
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b>
 
 <h2>Program walk-through:</h2>
 
